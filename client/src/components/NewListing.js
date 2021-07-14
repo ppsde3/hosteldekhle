@@ -288,7 +288,7 @@ function NewListing() {
             type="number"
             placeholder="XXXXX"
             name="zip"
-            ref={register({ required: true, maxLength: 5 })}
+            ref={register({ required: true, maxLength: 6 })}
             className="my-2 shadow p-1 appearance-none text-xl border lg:text-xl lg:px-4 rounded-lg text-gray-700 focus:outline-none focus:shadow-outline md:w-full md:flex-grow"
           />
           {errors.zip && (
