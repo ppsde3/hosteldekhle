@@ -37,17 +37,17 @@ function NewListing() {
       const responseGeo = await axios({
         method: 'GET',
         url: `/api/listings/location/getGeo/${addressToGeo}`,
-      });
+      }); 
 
       formData.append('latitude', responseGeo.data.data.latitude);
       formData.append('longitude', responseGeo.data.data.longitude);
-
+     
       const response = await axios({
         method: 'POST',
         url: '/api/listings',
         data: formData,
       });
-
+     
       if (response.status === 201) {
         setIsFetching(false);
         setAlert(
