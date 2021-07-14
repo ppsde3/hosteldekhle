@@ -24,10 +24,10 @@ function Home(props) {
       <div className="flex-grow sm:py-8 lg:self-center">
         <div className="px-8 mt-4">
           <h1 className="text-gray-700 text-3xl lg:text-5xl leading-tight">
-            Find Your New Place with <span className="font-bold">roomie!</span>
+            Find Your New Place with <span className="font-bold">HostelDekhLe!</span>
           </h1>
           <p className="font-light text-gray-700 text-xl md:text-2xl">
-            Easy as making friends, with roomie you can look for many
+            Easy as making friends, with this you can look for many
             <br className="hidden md:inline lg:hidden" /> rooms available across
             the country.
           </p>
